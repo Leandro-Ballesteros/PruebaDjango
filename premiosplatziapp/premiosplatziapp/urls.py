@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("polls/", include("polls.urls"))
+    path("polls/", include("polls.urls")) #Esta linea especifica que en la ruta polls es decir en la app polls se valide el archivo urls
 ]
